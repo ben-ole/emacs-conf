@@ -37,3 +37,4 @@
 (depends-on "git-gutter")
 (depends-on "magit")
 (depends-on "markdown-mode")
+(depends-on "find-file-in-project")

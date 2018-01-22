@@ -69,3 +69,6 @@
          ("\\.md\\'" . markdown-mode)
          ("\\.markdown\\'" . markdown-mode))
   :init (setq markdown-command "multimarkdown"))
+
+(use-package find-file-in-project
+  :bind ("s-t" . find-file-in-project-by-selected))
