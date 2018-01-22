@@ -1,5 +1,7 @@
 my very own emacs config
 
+![preview](img/preview.png)
+
 # setup
 
      $ brew cask install emacs

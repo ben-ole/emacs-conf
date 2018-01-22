@@ -36,3 +36,4 @@
 (depends-on "neotree")
 (depends-on "git-gutter")
 (depends-on "magit")
+(depends-on "markdown-mode")

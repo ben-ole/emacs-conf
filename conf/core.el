@@ -29,7 +29,7 @@
 
 ; file tree
 (use-package all-the-icons)
-(setq neo-theme (if (display-cgraphic-p) 'icons 'arrow))
+(setq neo-theme 'icons)
 (use-package neotree)
 
 (use-package magit)
@@ -62,3 +62,10 @@
 ;; Make meta key work properly.
 (setq mac-option-key-is-meta t
       mac-option-modifier 'meta)
+
+(use-package markdown-mode
+  :ensure t
+  :mode (("README\\.md\\'" . gfm-mode)
+         ("\\.md\\'" . markdown-mode)
+         ("\\.markdown\\'" . markdown-mode))
+  :init (setq markdown-command "multimarkdown"))
